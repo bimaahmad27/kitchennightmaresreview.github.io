@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkenalan Dengan Gordon Ramsay</title>
+    <link rel="icon" href="images/kn.jpg">
+    <link rel="stylesheet" href="css2_uts.css">
+</head>
+<body>
+    <div class="FContainer">
+        <nav class="wrapper">
+            <div class="judul">
+                <div class="judul1">Kitchen</div>
+                <div class="judul2">Nightmares</div>
+            </div>
+            <ul class="navigasi">
+                <li><a href="tugas_uts.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">About ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="production.html">Production</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Contact ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="https://www.youtube.com/c/KitchenNightmares" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/ramsaykitchennightmares/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/ramsaykitchennightmares/" target="_blank">Facebook</a>
+                    </div>
+                <li><a href="registration.html" class="cta">Registration</a></li>
+                </li>
+            </ul>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+        </nav>  
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="judul3">Kitchen Nightmares</div>
+            <div class="judul4">Sneak Peek</div>
+            <br><br>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1OGYUhNCMPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "570px";
+          document.getElementById("main").style.marginLeft = "500px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+
+    <div class="artikel">
+        <h1 id="2">Belum Pernah Mengenal Gordon Ramsay? <br> Mari Berkenalan Dengannya</h1><br>
+        <p>Gordon Ramsay merupakan salah satu chef paling ternama di dunia, di mana dia memiliki sejumlah restoran yang telah diberi penghargaan dengan total 16 Bintang Michelin.</p><br>
+        <p>Salah satu acara televisi paling terkenal yang pernah dibintangi Gordon Ramsay adalah MasterChef US.</p><br>
+        <p>Gordon Ramsay menjadi salah satu chef paling ternama di dunia bukan tanpa alasan. Dia mempunyai keunikan yang mampu membedakan dirinya dengan chef lainnya. Tidak hanya dengan skill memasaknya yang sangat baik, tapi dia juga merupakan chef yang terkenal akan kegalakannya. Dia sering mengeluarkan kata-kata kasar di setiap acara televisi yang dibintanginya. Tentunya hal tersebut bukan tanpa alasan. Gordon Ramsay memiliki sifat seperti itu karena dia memiliki tujuan yang baik, yaitu mengedukasi dan memberikan pelajaran yang berharga pada tiap orang, bahwa menjadi seorang chef itu bukanlah sesuatu yang bisa dianggap main-main.</p><br>
+        <p>Di samping betapa mengerikannya Gordon Ramsay, justru dengan branding tersebutlah dia menjadi terkenal dan disukai oleh banyak orang. Karena tidak banyak chef-chef yang tampil di televisi untuk menunjukkan sifat seperti Gordon Ramsay.</p>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>©Copyright design by Bima</li>
+            <li><a href="https://www.youtube.com/c/KitchenNightmares" target="blank" class="link">Youtube Channel Kitchen Nightmare</a></li>
+        </ul>
+    </div>
+</body>
+</html>

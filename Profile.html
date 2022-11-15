@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="images/kn.jpg">
+    <link rel="stylesheet" href="css2_uts.css">
+</head>
+<body>
+    <div class="FContainer">
+        <nav class="wrapper">
+            <div class="judul">
+                <div class="judul1">Kitchen</div>
+                <div class="judul2">Nightmares</div>
+            </div>
+            <ul class="navigasi">
+                <li><a href="tugas_uts.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">About ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="production.html">Production</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Contact ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="https://www.youtube.com/c/KitchenNightmares" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/ramsaykitchennightmares/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/ramsaykitchennightmares/" target="_blank">Facebook</a>
+                    </div>
+                <li><a href="registration.html" class="cta">Registration</a></li>
+                </li>
+            </ul>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+        </nav>  
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="judul3">Kitchen Nightmares</div>
+            <div class="judul4">Sneak Peek</div>
+            <br><br>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1OGYUhNCMPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "570px";
+          document.getElementById("main").style.marginLeft = "500px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+
+    <div class="artikel">
+        <h1>Apa Itu Kitchen Nightmares?</h1><br>
+        <p>Kitchen Nightmares merupakan serial televisi asal Amerika Serikat yang pernah ditayangkan oleh channel Fox, di mana Gordon Ramsay diundang oleh pemilik restoran untuk membantu restoran tersebut yang tengah dilanda masalah, sehingga restoran tersebut dapat kembali berbisnis. </p><br>
+        <p>Acara ini memiliki keunikannya tersendiri, yaitu mayoritas dari restoran yang meminta bantuan sangat sulit untuk menerima kritikan dari Gordon Ramsay. Tidak hanya itu, mayoritas dari restoran tersebut juga memiliki berbagai masalah yang sama, seperti kebersihan dan juga bahan makanan yang tidak segar. Dengan berbagai masalah tersebut, maka di sinilah peran Gordon Ramsay sebagai chef ternama untuk menyelesaikan segala permasalahan yang ada.</p><br>
+        <p>Serial televisi ini mulai ditayangkan pada Rabu, 19 September 2007, dan berakhir pada 23 Juni 2014. Namun, hingga sekarang serial televisi masih dapat ditonton pada channel youtube Kitchen Nightmares yang berisikan episode full dari acara tersebut, maupun kompilasinya.</p>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>©Copyright design by Bima</li>
+            <li><a href="https://www.youtube.com/c/KitchenNightmares" target="blank" class="link">Youtube Channel Kitchen Nightmare</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Nightmares</title>
+    <link rel="icon" href="images/kn.jpg">
+    <link rel="stylesheet" href="css_uts.css">
+    
+</head>
+<body>
+    <div class="FContainer">
+        <nav class="wrapper">
+            <div class="judul">
+                <div class="judul1">Kitchen</div>
+                <div class="judul2">Nightmares</div>
+            </div>
+            <ul class="navigasi">
+                <li><a href="tugas_uts.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">About ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="production.html">Production</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Contact ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="https://www.youtube.com/c/KitchenNightmares" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/ramsaykitchennightmares/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/ramsaykitchennightmares/" target="_blank">Facebook</a>
+                    </div>
+                <li><a href="registration.html" class="cta">Registration</a></li>
+                </li>
+            </ul>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+        </nav>  
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="judul3">Kitchen Nightmares</div>
+            <div class="judul4">Sneak Peek</div>
+            <br><br>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1OGYUhNCMPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+    <div class="gambar">
+        <marquee behavior="slide" direction="down" scrollamount="20"><img class="gambar1" src="images/home.jpg"></marquee>
+    </div>
+      
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "570px";
+              document.getElementById("main").style.marginLeft = "500px";
+            }
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+    
+    <div class="artikel">
+        <h1><a href="http://localhost/web_statis/artikel1.html">Review Kitchen Nightmares</a></h1><br>
+        <p>Kitchen Nightmares merupakan salah satu dari sekian banyak acara televisi yang menawarkan hiburan melalui dunia kuliner. Banyak sekali kejutan yang diberikan pada acara ini yang dapat membuat...</p><br>
+        <button onclick="document.location='http://localhost/web_statis/artikel1.html'">Read more</button>
+        <br><br><br><br><br>
+        <h1><a href="http://localhost/web_statis/artikel2.html">Mari Berkenalan Dengan Gordon Ramsay</a></h1><br>
+        <p>Gordon Ramsay merupakan salah satu chef paling ternama di dunia, di mana dia memiliki sejumlah restoran yang telah diberi penghargaan dengan total...</p><br>
+        <button onclick="document.location='http://localhost/web_statis/artikel2.html'">Read more</button>
+        <br><br><br><br><br>
+        <h1><a href="http://localhost/web_statis/artikel3.html">Apa Pelajaran Yang Didapat Dari Kitchen Nightmares?</a></h1><br>
+        <p>Walaupun acara ini dipenuhi berbagai drama dan emosi yang tidak terkesan nyata, ada banyak sekali pelajaran yang dapat penontonnya ambil dan diterapkan pada kehidupan mereka. Di antaranya adalah...</p><br>
+        <button onclick="document.location='http://localhost/web_statis/artikel3.html'">Read more</button>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>©Copyright design by Bima</li>
+            <li><a href="https://www.youtube.com/c/KitchenNightmares" target="blank" class="link">Youtube Channel Kitchen Nightmares</a></li>
+        </ul>
+    </div>
+</body>
+</html>

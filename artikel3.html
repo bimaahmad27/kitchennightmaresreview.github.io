@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelajaran Dari Kitchen Nightmares</title>
+    <link rel="icon" href="images/kn.jpg">
+    <link rel="stylesheet" href="css2_uts.css">
+</head>
+<body>
+    <div class="FContainer">
+        <nav class="wrapper">
+            <div class="judul">
+                <div class="judul1">Kitchen</div>
+                <div class="judul2">Nightmares</div>
+            </div>
+            <ul class="navigasi">
+                <li><a href="tugas_uts.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">About ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="production.html">Production</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Contact ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="https://www.youtube.com/c/KitchenNightmares" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/ramsaykitchennightmares/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/ramsaykitchennightmares/" target="_blank">Facebook</a>
+                    </div>
+                <li><a href="registration.html" class="cta">Registration</a></li>
+                </li>
+            </ul>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+        </nav>  
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="judul3">Kitchen Nightmares</div>
+            <div class="judul4">Sneak Peek</div>
+            <br><br>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1OGYUhNCMPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "570px";
+          document.getElementById("main").style.marginLeft = "500px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    
+    <div class="artikel">
+        <h1 id="3">Apa Pelajaran Yang Didapat Dari Kitchen Nightmares?</h1><br>
+        <p>Walaupun acara ini dipenuhi berbagai drama dan emosi yang tidak terkesan nyata, ada banyak sekali pelajaran yang dapat penontonnya ambil dan diterapkan pada kehidupan mereka. Di antaranya adalah sebagai berikut:</p><br>
+        <h2><b>Sifat Denial</b></h2><br>
+        <p>Sifat ini adalah salah satu sifat yang sering kita jumpai pada para pelaku usaha restoran di Kitchen Nightmares. Orang dengan sifat ini cenderung menyangkal pernyataan dari orang lain dan menganggap semua itu tak benar. Meskipun pernyataan yang ada sebagian besar adalah fakta, orang dengan sifat denial berprinsip kuat jika ia adalah yang benar dan yang lain salah. Jika kita biarkan, sifat denial ini bisa berujung ke penyempitan sudut pandang. Terutama jika sedang berbisnis, seperti para pemilik restoran di Kitchen Nightmares, sifat yang satu ini beresiko dan bisa menjadi ancaman. Bukannya membuat usaha menjadi maju, melainkan sifat ini membuat kita <i>stuck</i> pada titik yang sama, karena sifat individualis kita dalam berpikir.</p><br>
+        <h2><b>Tak Mau Terbuka Dengan Kritikan</b></h2><br>
+        <p>Sakit hati karena mendapat kritikan itu wajar, yang perlu kita lakukan adalah mencoba untuk luangkan waktu sejenak saja jika dapat kritikan dari orang lain. Tak perlu langsung menelan mentah-mentah dan buka hati secara perlahan agar bisa melihat dengan baik kritikan yang kita terima. Dan jangan lupa jadikan kritikan sebagai bahan refleksi diri untuk membantu kita berkembang dan maju.</p>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>©Copyright design by Bima</li>
+            <li><a href="https://www.youtube.com/c/KitchenNightmares" target="blank" class="link">Youtube Channel Kitchen Nightmare</a></li>
+        </ul>
+    </div>
+</body>
+</html>

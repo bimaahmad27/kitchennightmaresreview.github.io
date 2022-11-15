@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="icon" href="images/kn.jpg">
+    <link rel="stylesheet" href="css2_uts.css">
+</head>
+<body>
+    <div class="FContainer">
+        <nav class="wrapper">
+            <div class="judul">
+                <div class="judul1">Kitchen</div>
+                <div class="judul2">Nightmares</div>
+            </div>
+            <ul class="navigasi">
+                <li><a href="tugas_uts.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">About ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="production.html">Production</a>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">Contact ˅</a>
+                    <div class="konten-dropdown">
+                        <a href="https://www.youtube.com/c/KitchenNightmares" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/ramsaykitchennightmares/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/ramsaykitchennightmares/" target="_blank">Facebook</a>
+                    </div>
+                <li><a href="registration.html" class="cta">Registration</a></li>
+                </li>
+            </ul>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+        </nav>  
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="judul3">Kitchen Nightmares</div>
+            <div class="judul4">Sneak Peek</div>
+            <br><br>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1OGYUhNCMPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "570px";
+          document.getElementById("main").style.marginLeft = "500px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    
+    <div class="artikel">
+        <h1>FAQ</h1><br>
+        <h2>Q: Kenapa Kitchen Nightmares Berakhir?</h2><br>
+        <p>A: "Saya membatalkan acara saya sendiri di Fox, Kitchen Nightmares" kata Gordon Ramsay. Dia menjelaskan bahwa dia telah mencapai titik puncak dengan salah satu restoran di acaranya dan menyadari bahwa dia sudah cukup.</p><br><br>
+        <h2>Q: Apakah Acara Kitchen Nightmares Merupakan Settingan?</h2><br>
+        <p>A: Penulis dari acara ini mengatakan bahwa apa yang terjadi di acara ini tidak dibuat-buat, jadi apapun yang kita lihat sebagai penonton pada acara ini adalah 100% benar.</p><br><br>
+        <h2>Q: Berapa Banyak Restoran Yang Masih Buka Hingga Sekarang Setelah Penayangan Kitchen Nightmares?</h2><br>
+        <p>A: Dari total 77 restoran yang telah masuk dalam acara ini, hanya 16 restoran saja yang masih buka hingga sekarang.</p>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>©Copyright design by Bima</li>
+            <li><a href="https://www.youtube.com/c/KitchenNightmares" target="blank" class="link">Youtube Channel Kitchen Nightmare</a></li>
+        </ul>
+    </div>
+</body>
+</html>
